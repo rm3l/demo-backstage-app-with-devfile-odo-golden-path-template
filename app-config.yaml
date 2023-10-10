@@ -44,6 +44,9 @@ integrations:
     #   token: ${GHE_TOKEN}
 
 proxy:
+  endpoints:
+    '/default-devfile-registry':
+      target: 'https://registry.stage.devfile.io'
   ### Example for how to add a proxy endpoint for the frontend.
   ### A typical reason to do this is to handle HTTPS and CORS for internal services.
   # endpoints:
@@ -91,6 +94,21 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
+
+    - type: file
+      target: ../../../test-docs-template/template.yaml
+      rules:
+        - allow: [Template]
+
+    - type: file
+      target: /home/asoro/work/tmp/7086-research-spike-backstage-golden-path-template-gpt-for-odo-init/golden-path-templates/with-skeleton/devfile-sample-go-basic/template.yaml
+      rules:
+        - allow: [Template]
+
+    - type: file
+      target: /home/asoro/work/tmp/7086-research-spike-backstage-golden-path-template-gpt-for-odo-init/golden-path-templates/with-skeleton/devfile-samples/template.yaml
+      rules:
+        - allow: [Template]
 
     ## Uncomment these lines to add more example data
     # - type: url
