@@ -2014,7 +2014,7 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-common@^0.19.7":
+"@backstage/backend-common@^0.19.5", "@backstage/backend-common@^0.19.7":
   version "0.19.7"
   resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.19.7.tgz#69ec9e4ea8b75745e4a320711501b50604d8e049"
   integrity sha512-0n52fRmakaeOH2nsTB13i2pbmxdcnzpGOxupYMlmwsaAiOnzKJ0Tu9FJCixwaCrg2EjL/AWh9BWthcNDFpduag==
@@ -6332,10 +6332,10 @@
     lodash "^4.17.21"
     lodash-es "^4.17.21"
 
-"@rm3l/plugin-scaffolder-frontend-module-devfile-field@^0.2.25":
-  version "0.2.25"
-  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-frontend-module-devfile-field/-/plugin-scaffolder-frontend-module-devfile-field-0.2.25.tgz#227e8a30bef156203c1c04141811c75cd65ae938"
-  integrity sha512-M6KJw/6W+Yk/7eNdwqeDr5VDIcDcdLL+1GmaIj3P3Nawpf4j1bK5ylUdYzkx2iYzkNb5653zQ9dPh5P+TAgAHw==
+"@rm3l/plugin-scaffolder-frontend-module-devfile-field@^0.5.0-36":
+  version "0.5.0-36"
+  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-frontend-module-devfile-field/-/plugin-scaffolder-frontend-module-devfile-field-0.5.0-36.tgz#3ed4be50bfb8c259be235e8976d5c4cb39b6d5fe"
+  integrity sha512-GreJ5QrP3ZAWyC4OMwmFJedkper0qRlbIKR494mPOhL6SDwYNzfbgRgwkIWoCZFMA0mqxwwEmU2DxKxMfSfkQA==
   dependencies:
     "@backstage/core-components" "^0.13.5"
     "@backstage/core-plugin-api" "^1.6.0"
@@ -6348,21 +6348,20 @@
     react-use "^17.2.4"
     zod "^3.22.4"
 
-"@rm3l/plugin-scaffolder-frontend-module-devfile-field@^0.2.26":
-  version "0.2.26"
-  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-frontend-module-devfile-field/-/plugin-scaffolder-frontend-module-devfile-field-0.2.26.tgz#d14f88d28223c03738d5b2e5a239b41866bd934a"
-  integrity sha512-N6IIkKxtYWyCpmyO1wdMcRFNt/zjtthBCyPR/LclxMS4UhUXYdzdCRpyYNj2+YDAOlFMy6E4tubD9a3OjvNU4w==
+"@rm3l/plugin-scaffolder-odo-actions@^0.5.0-36":
+  version "0.5.0-36"
+  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-odo-actions/-/plugin-scaffolder-odo-actions-0.5.0-36.tgz#b8b988abf3cd6a7ec868b497c5990bdb37d6d414"
+  integrity sha512-TZDPyf/CnSsH+A8oGW5S8W8Crems2lk8hUb/QtO8Y2cBXNUvvvBq06P9ShxnTfa0fDa1QQRRv/fpl5jNV8VGrw==
   dependencies:
-    "@backstage/core-components" "^0.13.5"
-    "@backstage/core-plugin-api" "^1.6.0"
-    "@backstage/plugin-scaffolder" "^1.15.0"
-    "@backstage/plugin-scaffolder-react" "^1.5.5"
-    "@backstage/theme" "^0.4.2"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
-    react-use "^17.2.4"
-    zod "^3.22.4"
+    "@backstage/backend-common" "^0.19.5"
+    "@backstage/config" "^1.1.0"
+    "@backstage/plugin-scaffolder-node" "^0.2.5"
+    "@types/express" "*"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    node-fetch "^2.6.7"
+    winston "^3.2.1"
+    yn "^4.0.0"
 
 "@rollup/plugin-commonjs@^23.0.0":
   version "23.0.7"
@@ -8906,7 +8905,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@premise/plugin-dynamic-pick-extension" "^0.2.1"
-    "@rm3l/plugin-scaffolder-frontend-module-devfile-field" "^0.2.25"
+    "@rm3l/plugin-scaffolder-frontend-module-devfile-field" "^0.5.0-36"
     history "^5.0.0"
     react "^17.0.2"
     react-dom "^17.0.2"
