@@ -6332,10 +6332,10 @@
     lodash "^4.17.21"
     lodash-es "^4.17.21"
 
-"@rm3l/plugin-scaffolder-frontend-module-devfile-field@^0.5.0-36":
-  version "0.5.0-36"
-  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-frontend-module-devfile-field/-/plugin-scaffolder-frontend-module-devfile-field-0.5.0-36.tgz#3ed4be50bfb8c259be235e8976d5c4cb39b6d5fe"
-  integrity sha512-GreJ5QrP3ZAWyC4OMwmFJedkper0qRlbIKR494mPOhL6SDwYNzfbgRgwkIWoCZFMA0mqxwwEmU2DxKxMfSfkQA==
+"@rm3l/plugin-scaffolder-frontend-module-devfile-field@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@rm3l/plugin-scaffolder-frontend-module-devfile-field/-/plugin-scaffolder-frontend-module-devfile-field-0.6.0.tgz#63940fc7a6b57c3e457743d56ccf48a6f89cb470"
+  integrity sha512-R1x2vK1dgL5MW8f9vsdNZmwovfOa0GyubfYHXdmW1Ju4GaCLVwoG+in31Awh7LVD3NSmcmzat1crlKyzOLiTqA==
   dependencies:
     "@backstage/core-components" "^0.13.5"
     "@backstage/core-plugin-api" "^1.6.0"
@@ -6348,10 +6348,10 @@
     react-use "^17.2.4"
     zod "^3.22.4"
 
-"@rm3l/plugin-scaffolder-odo-actions@^0.5.0-36":
-  version "0.5.0-36"
-  resolved "http://localhost:4873/@rm3l/plugin-scaffolder-odo-actions/-/plugin-scaffolder-odo-actions-0.5.0-36.tgz#b8b988abf3cd6a7ec868b497c5990bdb37d6d414"
-  integrity sha512-TZDPyf/CnSsH+A8oGW5S8W8Crems2lk8hUb/QtO8Y2cBXNUvvvBq06P9ShxnTfa0fDa1QQRRv/fpl5jNV8VGrw==
+"@rm3l/plugin-scaffolder-odo-actions@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@rm3l/plugin-scaffolder-odo-actions/-/plugin-scaffolder-odo-actions-0.6.0.tgz#2f015cde8a94e795e1981a99fda5bd0b2e775787"
+  integrity sha512-/At5SpOh1AOcsaLpMA2AzIoJtlZKsubVMxtq+adWt1D0lYSX0ynFuViIuU72ugspzfvNTKXVtnUHLbBMZdPVog==
   dependencies:
     "@backstage/backend-common" "^0.19.5"
     "@backstage/config" "^1.1.0"
@@ -8905,7 +8905,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@premise/plugin-dynamic-pick-extension" "^0.2.1"
-    "@rm3l/plugin-scaffolder-frontend-module-devfile-field" "^0.5.0-36"
+    "@rm3l/plugin-scaffolder-frontend-module-devfile-field" "^0.6.0"
     history "^5.0.0"
     react "^17.0.2"
     react-dom "^17.0.2"
