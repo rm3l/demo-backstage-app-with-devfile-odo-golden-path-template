@@ -69,7 +69,7 @@ auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
   providers: {}
 
-scaffolder:
+scaffolder: {}
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
 catalog:
@@ -110,8 +110,13 @@ catalog:
     #   rules:
     #     - allow: [Template]
 
-    - type: file
-      target: /home/asoro/work/tmp/7086-research-spike-backstage-golden-path-template-gpt-for-odo-init/golden-path-templates/devfile-starter/template.yaml
+    # - type: file
+    #   target: /home/asoro/work/tmp/7086-research-spike-backstage-golden-path-template-gpt-for-odo-init/golden-path-templates/devfile-starter/template.yaml
+    #   rules:
+    #     - allow: [Template]
+
+    - type: url
+      target: https://github.com/rm3l/odo-backstage-golden-path-template/blob/main/template.yaml
       rules:
         - allow: [Template]
 
@@ -124,3 +129,12 @@ catalog:
     #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
     #   rules:
     #     - allow: [User, Group]
+
+odo:
+  telemetry:
+    disabled: false
+  devfileRegistry:
+    # Used for calling `odo init` and any other custom actions relying on a Devfile registry.
+    # If you are using the Devfile Selector Custom Field Extension,
+    # you need to additionally add this URL to the 'proxy.endpoints' field under the '/devfile-registry'
+    url: 'https://registry.stage.devfile.io'
